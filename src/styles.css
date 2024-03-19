@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: gainsboro;
+  background-color: gray;
   font-family: "Inter", sans-serif;
 }
 
@@ -18,6 +18,7 @@ button:active {
 }
 
 .root { 
+  padding: 1em;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -98,3 +99,84 @@ BADGES
 }
 
 
+/*=========
+BANNER
+==========*/
+
+.banner-container {
+  padding: 1.5em;
+  display: flex;
+  gap: 1em;
+  border-radius: 8px;
+  min-width: 35vw;
+}
+
+.banner-container-success {
+  background-color: #ECFDF5;
+  color: #065F46;
+}
+
+.banner-container-warning {
+  background-color: #FFFBEB;
+  color:#92400E;
+}
+
+.banner-container-error {
+  background-color: #FEF2F2;
+  color: #92400E;
+}
+
+.banner-container-info {
+  background-color: #EFF6FF;
+  color: #1E40AF;
+}
+
+.banner-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.banner-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.banner-title-success {
+  color: #047857;
+}
+
+.banner-title-warning {
+  color: #B45309;
+}
+
+.banner-title-error {
+  color: #B45309;
+}
+
+.banner-title-info {
+  color: #1C51B9;
+}
+
+.banner-text {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.banner-text-success{
+  color:#047857;
+}
+
+.banner-text-warning{
+  color: #B45309;
+}
+
+.banner-text-error{
+  color: #B45309;
+}
+
+.banner-text-info{
+  color: #1C51B9;
+}
