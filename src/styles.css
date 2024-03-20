@@ -180,3 +180,55 @@ BANNER
 .banner-text-info{
   color: #1C51B9;
 }
+
+
+/*=========
+CARDS
+===========*/
+
+.card-container {
+  background-color: #F9FAFB;
+  color: #111827;
+  border-radius: 8px;
+  border: none;
+  padding: 4em 1.5em 2em;
+  display: flex;
+  gap: 1.5em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 800px;
+  min-width: 300px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: #111827;
+  letter-spacing: .75px;
+}
+
+.card-description {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  color: #6B7280;
+  text-align: center;
+}
+
+.card-icon {
+  top: 0%;
+  transform: translate(0%, -50%);
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  border: none;
+  border-radius: 8px;
+  padding: .65em;
+  background-color:#3F75FE;
+  color: white;
+  cursor: pointer;
+}
